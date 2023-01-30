@@ -1,0 +1,30 @@
+uuid: 88baa408-cdec-46d4-bfd2-562077f7a696
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.space_drupal_ct.body
+    - node.type.space_drupal_ct
+  module:
+    - text
+    - user
+id: node.space_drupal_ct.teaser
+targetEntityType: node
+bundle: space_drupal_ct
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: d466c2cd-8929-4272-a547-c6ddd3d406db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.space_drupal_ct
+  module:
+    - text
+id: node.space_drupal_ct.body
+field_name: body
+entity_type: node
+bundle: space_drupal_ct
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

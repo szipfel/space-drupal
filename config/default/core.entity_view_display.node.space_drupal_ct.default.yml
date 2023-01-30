@@ -1,0 +1,28 @@
+uuid: 61ccba84-a623-4142-b861-0ddc91591a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.space_drupal_ct.body
+    - node.type.space_drupal_ct
+  module:
+    - text
+    - user
+id: node.space_drupal_ct.default
+targetEntityType: node
+bundle: space_drupal_ct
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
